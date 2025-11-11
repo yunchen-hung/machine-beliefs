@@ -4,6 +4,12 @@ In recent years, researchers have been interested in the idea of reverse-enginee
 
 Now we beg the question of whether neural networks, or more specifically, Vision-Language Models (VLMs), can also perform this same task. We selected to use VLMs to allow for multimodal processing that is in a similar fashion to human participants, characterized by its ability to perform natural language processing and computer vision. The idea is to provide a more contextual understanding of the world, as well as match the trained task closely to the original experiment. To speed up computational time, we will utilize the pretrained LLaVA-NeXt model [1]. We are choosing to use a smaller number of image options compared to the original study, namely newborn, older infant, toddler, preschool-age child, and school-age child. We will extract the questions from Experiment 1, 2, 4, and 5 for training and testing: Samples here. We can attempt zero-shot inference through direct testing, and if time permits, work towards fine tuning the model to behave more human-like.
 
-References
+### Code instructions
+
+To run our code, see the notebook model.ipynb for the LLaVA-NeXt implementation. In the same notebook there are the original survey prompts, as well as age progression images of a single person from the FG-NET Aging Database. 
+
+### References
+
 [1] Liu, H., Li, C., Li, Y., & Lee, Y. J. (2024). Improved baselines with visual instruction tuning. 2024 IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR), 26286–26296. doi:10.1109/cvpr52733.2024.02484 
+
 [2] Wang, J., & Feigenson, L. (2019). Is Empiricism Innate? Preference for Nurture over Nature in People’s Beliefs about the Origins of Human Knowledge. doi:10.31234/osf.io/dv8pf 
