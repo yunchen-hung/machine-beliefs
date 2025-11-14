@@ -6,7 +6,7 @@ Now we beg the question of whether neural networks, or more specifically, Vision
 
 ### Code instructions
 
-To run our code, see the notebook model.ipynb for the LLaVA-NeXt implementation. In the same notebook there are the original survey prompts, as well as age progression images of a single person from the FG-NET Aging Database. 
+To run our code, see the notebook `model.ipynb` for the LLaVA-NeXt implementation. For the gemma model, run the notebook `gemma.ipynb`. In the same notebook there are the original survey prompts, as well as age progression images of a single person from the FG-NET Aging Database. 
 
 ### References
 
