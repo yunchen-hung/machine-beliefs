@@ -6,7 +6,9 @@ Now we beg the question of whether neural networks, or more specifically, Vision
 
 ### Code instructions
 
-To run our code, see the notebook `model.ipynb` for the LLaVA-NeXt implementation. For the gemma model, run the notebook `gemma.ipynb`. For each cell, we restarted the entire notebook then ran the prompts, images, and the cell itself. In the same notebook there are the original survey prompts, as well as age progression images of a single person from the FG-NET Aging Database. 
+To run our code, see the notebook `model.ipynb` for the LLaVA-NeXt implementation. For the gemma models, run the notebook `gemma.ipynb`. The loop cell is where we get our final data. For each cell, we restarted the entire notebook then ran the prompts, images, and the cell itself as our compute could not handle the continuation of each cell processing. In the same notebook there are the original survey prompts, as well as age progression images of a single person from the FG-NET Aging Database. You must have GPU access to run our notebooks.
+
+For our slide and report plots, we manually parsed through the model outputs to produce our hardcoded plots (see `plotting.ipynb`). Future work can be done to create a pipeline for scraping through the model outputs. 
 
 ### References
 
